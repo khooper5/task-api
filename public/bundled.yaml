@@ -78,7 +78,7 @@ paths:
           content:
             application/json:
               schema: null
-              type: array
+              type: object
               items:
                 $ref: ../components/schemas/Task.yaml
         '400':
