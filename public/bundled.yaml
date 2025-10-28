@@ -77,10 +77,8 @@ paths:
           description: OK
           content:
             application/json:
-              schema: null
-              type: object
-              items:
-                $ref: ../components/schemas/Task.yaml
+              schema:
+                $ref: '#/components/schemas/Task'
         '400':
           description: validation error
           content:
