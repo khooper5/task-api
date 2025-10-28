@@ -18,16 +18,16 @@ get:
           schema:
           type: array
           items:
-            $ref: '#/components/schemas/Task'
+            $ref: '../components/schemas/Task'
     '400':
       description: validation error
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/ValidationError'
+            $ref: '../components/schemas/ValidationError'
     '404':
       description: not found
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/NotFoundError'
+            $ref: '../components/schemas/NotFoundError'
